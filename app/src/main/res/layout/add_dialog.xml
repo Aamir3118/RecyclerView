@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="280dp"
+    android:orientation="vertical"
+    android:background="#7DCEEF"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Contact"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FAF8F8"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/etName"
+        android:paddingVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:textColorHint="@color/black"
+        android:background="#FAF8F8"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Number"
+        android:inputType="phone"
+        android:paddingVertical="5dp"
+        android:layout_marginHorizontal="30dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/etNumber"
+        android:layout_gravity="center"
+        android:background="#FAF8F8"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/btnAdd"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="end"
+        android:textColor="@color/black"
+        android:backgroundTint="#FAF8F8"
+        />
+</LinearLayout>
